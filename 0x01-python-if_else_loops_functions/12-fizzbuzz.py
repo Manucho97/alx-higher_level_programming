@@ -11,4 +11,3 @@ def fizzbuzz():
         else:
             print(f"{x} ", end='')
         x += 1
-    print()
