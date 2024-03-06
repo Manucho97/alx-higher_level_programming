@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-
-import sys
+if __name__ == "__main__":
+    import sys
 
 counter = 0
 n = len(sys.argv)
