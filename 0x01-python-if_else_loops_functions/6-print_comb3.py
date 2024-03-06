@@ -5,8 +5,8 @@ while x < 9:
     while y < 10:
         if x != y:
             if x == 8 and y == 9:
-                print(f"{x}{y}")
+                print("{}{}".format(x, y))
             else:
-                print(f"{x}{y}, ", end='')
+                print("{}{}, ".format(x, y), end='')
         y += 1
     x += 1
