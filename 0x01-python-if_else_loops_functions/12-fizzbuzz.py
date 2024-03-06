@@ -10,5 +10,5 @@ def fizzbuzz():
             print("Buzz ", end='')
         else:
             print(f"{x} ", end='')
-            x += 1
+        x += 1
     print()
