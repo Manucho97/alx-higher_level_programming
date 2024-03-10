@@ -8,8 +8,3 @@ def max_integer(my_list=[]):
         if number > n:
             n = number
     return n
-
-
-my_list = []
-max_value = max_integer(my_list)
-print("Max: {}".format(max_value))
